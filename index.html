@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+<style>
+    #navbar ul{
+      display: none;
+      background-color: #10536c;
+      position: absolute;
+      top: 100%;
+    }
+    #navbar li:hover ul { display: block; }
+    #navbar, #navbar ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    #navbar {
+      height: 50px;
+      background-color: #2f7791;
+      padding-left: 15px;
+      min-width: 470px;
+    }
+    #navbar li {
+      float: left;
+      position: relative;
+      height: 100%;
+    }
+    #navbar li a {
+        margin-left: 10px;
+        margin-right: 10px;
+      display: block;
+      padding: 12px;
+      width: 100px;
+      color: #e9f0f3;
+      text-decoration: none;
+      text-align: center;
+    }
+    #navbar ul li { float: none; }
+    #navbar li:hover { background-color: #10536c; }
+    #navbar ul li:hover { background-color: #666; }
+    #main_info_list{
+        list-style-type: none;
+    }
+  </style>
+    </head>
+    <body class="page">
+        <div class="container">
+            <div>
+                <ul id="navbar" >
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="education.html">AUSBILDUNG</a></li>
+                    <li><a href="experience.html">BERUFLICHES</a></li>
+                    <li><a href="knowledge.html">KENNTNISSE</a></li>
+                    <li><a href="contact.html">KONTAKTE</a></li>
+                    </ul> 
+            </div>
+            <div id = "main">
+                <div>
+                    <img class = " foto_profil" src="foto_profil.jpg"> 
+                </div>
+               <div id="main_info">
+                <h1>Mashurova Oksana</h1>
+                <ol id = "main_info_list">
+                    <li><b>Position:</b> Software Developer</li>
+                    <li><b>Languages:</b> Russian, Ukrainian, German, English</li>
+                    <li><b>Birth data: </b>17.05.1984</li>
+                    <li><b>Address:</b> Landoltstrasse 60, 3007, Bern </li>
+                    <li><b>Nationality:</b> Ukrainian</li>
+                    <li><b>Residence permit:</b> Status S</li>
+                    <li><b>Zivilstand:</b> Ledig</li>
+                </ol>
+               </div>
+            </div>
+        </div>
+        <!-- <footer class="footer">
+            <div class="wrapper">
+               <a href="https://www.bfh.ch/fr/?gad=1&gclid=CjwKCAjw5_GmBhBIEiwA5QSMxFz5zBF0svBK3VD9MVcNIVs3obrO7DzOtcvuBOvp1z_1gcfYvfcfgxoC93UQAvD_BwE"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bernhackt.ch%2Fbfh-3%2F&psig=AOvVaw2UbecNigRXgG53ws6RtrVQ&ust=1692303652562000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCej8SA4oADFQAAAAAdAAAAABAd"></a>
+            </div>
+                </footer> -->
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+<style>
+    #navbar ul{
+      display: none;
+      background-color: #10536c;
+      position: absolute;
+      top: 100%;
+    }
+    #navbar li:hover ul { display: block; }
+    #navbar, #navbar ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    #navbar {
+      height: 50px;
+      background-color: #2f7791;
+      padding-left: 15px;
+      min-width: 470px;
+    }
+    #navbar li {
+      float: left;
+      position: relative;
+      height: 100%;
+    }
+    #navbar li a {
+        margin-left: 10px;
+        margin-right: 10px;
+      display: block;
+      padding: 12px;
+      width: 100px;
+      color: #e9f0f3;
+      text-decoration: none;
+      text-align: center;
+    }
+    #navbar ul li { float: none; }
+    #navbar li:hover { background-color: #10536c; }
+    #navbar ul li:hover { background-color: #666; }
+    #main_info_list{
+        list-style-type: none;
+    }
+    .page {
+    margin-top: 0px;
+    height: 800px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+  }
+  </style>
+    </head>
+    <body class="page">
+        <div class="container">
+            <div>
+                <ul id="navbar" list-style-type: none;>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="education.html">AUSBILDUNG</a></li>
+                    <li><a href="experience.html">BERUFLICHES</a></li>
+                    <li><a href="knowledge.html">KENNTNISSE</a></li>
+                    <li><a href="contact.html">KONTAKTE</a></li>
+                    </ul> 
+            </div>
+            <div id = "main">
+               <div id="main_info">
+                <ol id = "main_info_list">
+                    <li><b>Email:</b><a href="mailto:vlad@webref.ru"> oksana.maschurova@gmail.com</a> </li>
+                    <li><b>Telefon:</b><a href="tel:+41798345058"> +41798345058</a></li>
+                    <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/oksana-mashurova-748860255/"> https://www.linkedin.com/in/oksana-mashurova-748860255/</a></li>
+                    <li><b>GitHub:</b><a href="https://github.com/Oksana-maker/Profile"> https://github.com/Oksana-maker/Profile</a></li>
+                    <div id = "icone">
+                        <li><a href="https://t.me/@OksanaMashurova"><img src="Telegram.jpg"></a>@OksanaMashurova</li>
+                        <li><a href="https://wa.me/41798345058"><img src="WhatsApp.jpg"> </a>+41798345058</li>
+                        <li><a href="viber://add?number=41798345058"><img src="Viber.jpg"></a> +41798345058</li>
+                    </div>
+                </ol>
+               </div>
+            </div>
+            <div id="carte">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.3798937711267!2d7.4407692!3d46.9345722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39cac3365253%3A0xee2e2c91eeea384b!2sLandoltstrasse%2060%2C%203007%20Bern!5e0!3m2!1suk!2sch!4v1692223618579!5m2!1suk!2sch" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
